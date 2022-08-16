@@ -1,0 +1,19 @@
+body, html {
+  height: 100%;
+}
+section {
+  height: 100%;
+}
+header {
+  background: aqua;
+  height: 200px;
+}
+main {
+  background: wheat;
+  overflow-y: auto;
+  height: calc(100% - 200px - 200px);
+}
+footer {
+  background: yellowgreen;
+  height: 200px;
+}
